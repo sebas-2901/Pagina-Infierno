@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Infernum</title>
+	<meta charset="utf-8">
+	<meta name="">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="icon" href="img/logo.jpg" >
+</head>
+<script>
+    function mostrarOcultarMenu() {
+        const nav = document.getElementById('nav');
+        if (nav.classList.contains('visible')) {
+            nav.classList.remove('visible');
+        } else {
+            nav.classList.add('visible');
+        }
+    }
+
+    function redirigir(pagina) {
+        window.location.href = pagina;
+    }
+</script>
+<body>
+    <header>
+	<div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <img src="img/logopag.jpg" alt="Logo" class="logo-img"> <a href="Infierno.html" >Infernum</a>
+            </div>
+            <button class="abrir-menu" onclick="mostrarOcultarMenu()"> ≣</button>
+            <nav class="nav" id="nav">
+                <button id="cerrar" onclick="mostrarOcultarMenu()"> ≣</button>
+                <ul class="nav2">
+                    <li><a href="Infierno.html" onclick="seleccionar()">Infernum</a></li>
+                    <li><a href="Averno.html" onclick="seleccionar()">Averno</a></li>
+                    <li><a href="Criaturas.html" onclick="seleccionar()">Amigos</a></li>
+                    <li><a href="Castigos.html" onclick="seleccionar()">Premios</a></li>
+                    <li><a href="Rey.html" onclick="seleccionar()">Rey</a></li>
+                    <li><a href="Demonios.html" onclick="seleccionar()">Principes</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <h1 class="titulo"> Amigos </h1>
+        <div class="contenedor_1">
+        <p class="parrafo1"></p>
+            <div class="primer">
+                <h1>Sucubos</h1>
+                <img src="img/sucubos.jpg">
+                <p class="parrafo1">Bueno uno de nuestros amigos en este lugar son los súcubos,que son demonios femeninos, que seducen a los hombres mientras 
+                    duermen, drenando su energía vital a través de relaciones sexuales, son mujeres extremadamente atractivas. Su objetivo es debilitar a 
+                    sus víctimas para robar su alma o su fuerza vital, es gusta divertise contigo, ese seria un resumen sobre ellos, asi que tranquilo.
+            </div>
+            <p class="parrafo1"></p>
+            <div class="primer">
+                <h1>Incubos</h1>
+                <img src="img/Incubus.jpg">
+                <p class="parrafo1"> Los íncubos, basicamete son el equivalente masculino de los súcubos. Este demonio seduce a las mujeres mientras 
+                    duermen, también a través de relaciones sexuales.
+                     El íncubo busca robar la energía vital de las mujeres, causándoles problemas de salud o incluso el descanso eterno, vaya, que buenos tipos.</p>
+            </div>
+            <p class="parrafo1"></p>
+            <div class="primer">
+                <h1>Cerbero</h1>
+                <img src="img/tercero.jpg">
+                <p class="parrafo1">Es un lindo,hermoso, adorable y amable perro de tres cabezas que guarda la entrada de nuestro hogar, impidiendo que
+                    los que no quiere estar aqui se vayan, simplemente se van sin experimentar lo mejor de este lugar, asi que los dejamos para que prueben, casi siempre 
+                    despues de ello se quedan, entonces les gusta estar aqui.</p>
+            </div>
+            <p class="parrafo1"></p>
+            <div class="primer">
+                <h1>Hel</h1>
+                <img src="img/Hel.jpg">
+                <p class="parrafo1">La Diosa mas hermosa del infierno, ella es la reina de el lugar donde los mejores guerreros van, los que no han muerto nunca en batalla,
+                     son premiados de distintas formas, como lo hace?, no lo sabemos, pero ellos nunca vuelven, entonces al parecer son muy buenos</p>
+            </div>
+            <p class="parrafo1"></p>
+            <div class="primer">
+                <h1>Jörmungandr</h1>
+                <img src="img/jormungandr.jpg">
+                <p class="parrafo1">El o ella, no sabemos como dirigirnos, nadie sabe que es, pero es la serpiente del mundo, 
+                    que rodea todos los mundos como tal, es piados@ con ustedes, si fuera yo ya los hubiera destr...consentido mucho, no solo los observaria como lo hace.</p>
+            </div>
+            <footer>
+                <left>Infernum</left>
+                <center>©Derechos de autor</center>
+                <rigth>                              </rigth>
+            </footer>
+    </body>
+    </html>
+    

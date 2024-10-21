@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Infernum</title>
+	<meta charset="utf-8">
+	<meta name="">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="icon" href="img/logo.jpg" >
+</head>
+<script>
+    function mostrarOcultarMenu() {
+        const nav = document.getElementById('nav');
+        if (nav.classList.contains('visible')) {
+            nav.classList.remove('visible');
+        } else {
+            nav.classList.add('visible');
+        }
+    }
+
+    function redirigir(pagina) {
+        window.location.href = pagina;
+    }
+</script>
+<body>
+    <header>
+	<div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <img src="img/logopag.jpg" alt="Logo" class="logo-img"> <a href="Infierno.html" >Infernum</a>
+            </div>
+            <button class="abrir-menu" onclick="mostrarOcultarMenu()"> ≣</button>
+            <nav class="nav" id="nav">
+                <button id="cerrar" onclick="mostrarOcultarMenu()"> ≣</button>
+                <ul class="nav2">
+                    <li><a href="Infierno.html" onclick="seleccionar()">Infernum</a></li>
+                    <li><a href="Averno.html" onclick="seleccionar()">Averno</a></li>
+                    <li><a href="Criaturas.html" onclick="seleccionar()">Amigos</a></li>
+                    <li><a href="Castigos.html" onclick="seleccionar()">Premios</a></li>
+                    <li><a href="Rey.html" onclick="seleccionar()">Rey</a></li>
+                    <li><a href="Demonios.html" onclick="seleccionar()">Principes</a></li>        
+                </ul>
+            </nav>
+        </div>
+            <p class="titulo" style="text-align: left;"><strong>Principes</strong></p>
+            <div class="contenedor_1">
+                <div class="amon">
+                    <h1>Amon</h1>
+                    <img src="img/Amon.jpg">
+                    <p>Nuestro queridisimo principe Amon, es tan tierno, él es el marqués del infierno que comanda 40 legiones de demonios, él cuenta las cosas 
+                        del pasado y del futuro, su trabajo es mantener la ira de los seres humanos</p>
+                </div>
+                <div class="mammon">
+                    <h1>Mammón</h1>
+                    <img src="img/Mammon.jpg">
+                    <p>Mammón, es un principe avaricioso, lo que quiere lo consigue, poe algo él es el demonio de la avaricia, de la codicia y el materialismo, 
+                        es el demonio ante el cual se arrodillan todos aquellos esclavos del dinero que habitan en el mundo consumista de la actualidad.</p>
+                </div>
+                <div class="asmodeo">
+                    <h1>Asmodeo</h1>
+                    <img src="img/Asmodeo.jpg">
+                    <p>Nuestro cariñoso principe Asmodeo, es el demonio de los pecados carnales, el ser que se encarga de llevar a 
+                        los hombres a las turbias aguas de la lascivia. Él disfruta incitando la infidelidad y destruyendo noviazgos y
+                         matrimonios. Como pocos, Asmodeo es un demonio que aparece en la Biblia como un ser bien diferenciado de Satanás.</p>
+                </div>
+                <div class="Belcebu">
+                    <h1>Belcebú</h1>
+                    <img src="img/Belcebu.jpg">
+                    <p> El goloso principe Belcebú, el pecado capital de la gula. Su nombre deriva a Ba' al Zebûb, un término 
+                        despectivo que los hebreos emplearon para burlarse del hecho de que los templos donde era adorado estaban repletos de moscas, 
+                        insectos que se alimentaban de la carne de los sacrificios que no era recogida y se dejaba pudrir dentro del templo.</p>
+                </div>
+                <div class="Leviatan">
+                    <h1>Leviatan</h1>
+                    <img src="img/Leviatan.jpg">
+                    <p>El energico, el mejor nadador del infierno, un demonio acuático, que intenta poseer a las personas, siendo muy difícil de exorcizar.
+                        Considerado como uno de los “Siete Príncipes del Infierno”, Leviatán es para muchos interpretes una forma simbólica 
+                        del mismo Satanás. Él es el “Dragón que está en el mar” del que habló el profeta Isaías , la Serpiente Antigua, el terrible
+                         “Amo Demonio de los Océanos</p>
+                </div>
+                <div class="Belfegor">
+                    <h1>Belfegor</h1>
+                    <img src="img/Belfegor.jpg">
+                    <p>El principe Belfegor, el mas generoso, amable y gentil demonio del iframundo, es elq que se encarga de ayudar a la gente a 
+                        realizar descubrimientos, seduce a las personas a través de inventos ingeniosos que supuestamente les proporcionarán riquezas.</p>
+                </div>
+            </div>
+            <footer>
+                <left>Infernum</left>
+                <center>©Derechos de autor</center>
+                <rigth>                              </rigth>
+            </footer>
+    </body>
+    </html>
+    

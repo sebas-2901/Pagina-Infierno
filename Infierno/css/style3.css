@@ -1,0 +1,57 @@
+.empresas {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #9DB3F5;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.regresar{
+    position: absolute;
+    height: 31px;
+    top: 58px;
+    transform: translateY(-50%); 
+    left: 10%;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.empresa-info {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 7px 5px 5px 0px rgba(0, 0, 255, 0.28);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: calc(30% - 45px);
+    transition: transform 0.3s;
+}
+
+.empresa-info:hover{
+    transform: scale(1.05);
+}
+
+.empresa-info img {
+    max-width: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.empresa-info p {
+    font-style: italic;
+    color: #060606;
+    text-align: center;
+}

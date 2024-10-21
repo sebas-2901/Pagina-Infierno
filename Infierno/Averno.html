@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Infernum</title>
+	<meta charset="utf-8">
+	<meta name="">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="icon" href="img/logo.jpg" >
+</head>
+<style>
+    body {
+        background-image: url('img/Averno.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+</style>
+<script>
+    function mostrarOcultarMenu() {
+        const nav = document.getElementById('nav');
+        if (nav.classList.contains('visible')) {
+            nav.classList.remove('visible');
+        } else {
+            nav.classList.add('visible');
+        }
+    }
+
+    function redirigir(pagina) {
+        window.location.href = pagina;
+    }
+</script>
+<body>
+    <header>
+         <div class="contenedor-header">
+             <header>
+                 <div class="logo">
+                     <img src="img/logopag.jpg" alt="Logo" class="logo-img"> <a href="Infierno.html" >Infernum</a>
+                 </div>
+                 <button class="abrir-menu" onclick="mostrarOcultarMenu()"> ≣</button>
+                 <nav class="nav" id="nav">
+                     <button id="cerrar" onclick="mostrarOcultarMenu()"> ≣</button>
+                     <ul class="nav2">
+                         <li><a href="Infierno.html" onclick="seleccionar()">Infernum</a></li>
+                         <li><a href="Averno.html" onclick="seleccionar()">Averno</a></li>
+                         <li><a href="Criaturas.html" onclick="seleccionar()">Amigos</a></li>
+                         <li><a href="Castigos.html" onclick="seleccionar()">Premios</a></li>
+                         <li><a href="Rey.html" onclick="seleccionar()">Rey</a></li>
+                         <li><a href="Demonios.html" onclick="seleccionar()">Principes</a></li>
+                     </ul>
+                 </nav>
+                 <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+             </header>
+         </div>
+         <p class="titulo" style="text-align: left;"><strong>Circulos Del Infierno</strong></p>
+         <p class="parrafo1">Antes de que sigas avanzando te voy a explicar brevemente de que va esto, el infierno(Averno) es el lugar donde, después 
+            de la muerte, los condenados son sometidos a un castigo eterno.</p>
+         <p class="parrafo1">El averno esta dividido por nueve circulos/niveles, estan dividido segun el pecado que hayas cometido Humano, entre 
+            mas profundo estes mas cerca estaras de su Majestad, Lucifer Estrella de la Mañana, </p>
+         <p class="parrafo1">por ende recibiras un castigo más terrorífico para toda la eternidad. El averno es un lugar con rincones tales como un 
+            río de sangre que hierve y que se convierte en el destino de todas aquellas personas que blasfeman, que son usureras o que han cometido algún crimen.</p>
+            <button type="button" onclick="redirigir('Circulos.html')">Niveles del Infierno</button>
+
+            <footer>
+                <left>Infernum</left>
+                <center>©Derechos de autor</center>
+                <rigth>                              </rigth>
+            </footer>
+    </body>
+    </html>
+    
